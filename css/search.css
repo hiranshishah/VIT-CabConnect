@@ -1,0 +1,98 @@
+body{
+	
+}
+#searchdiv{
+	min-height: 100vh;
+	margin-top: -20px;
+
+	background-color:rgba(22, 24, 23, 0.189);
+	padding-bottom: 40	rem !important;
+	
+}
+.border{
+	border: solid 1px red;
+}
+#badge{
+	font-size: 2rem !important;
+	background-color: #444647;
+}
+#dateth:hover{
+	cursor: pointer;
+	background-color: #444647;
+}
+#dateth{
+	background-color:#444647;
+	vertical-align: middle;
+	transition:all 0.3s ease;
+	padding: 0px 2.5rem;
+}
+th{
+	vertical-align: middle !important;
+}
+
+footer{
+	position: relative;
+	background-color: #fff;
+}
+.red{
+	color: red !important;
+}
+.green{
+	color: green !important;
+}
+.cabsh1{
+	text-decoration: underline;
+	font-size: 3rem;
+	color: #fff;
+}
+.shareh2{
+	font-size: 2,5rem;
+	color: #fafafa;
+}
+
+hr{
+	border: 2px solid #000;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+footer{
+	padding-top: 2rem;
+	font-size: 1.7rem;
+	padding-bottom: 2rem;
+	position: relative;
+}
+table{
+	margin-top: 2rem;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	text-align: center;
+	overflow: auto;
+}
+th{
+	text-align: center;
+}
+@media (min-width: 769px){
+	footer .pullright{
+	position: absolute;
+	right: 100px;
+	top: 5px;
+}
+.tablediv{
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+.goback{
+	margin-left: 9rem;
+}
+.tosort{
+	margin-left: 10rem;
+}
+}
+@media (max-width:768px){
+	footer .pullright{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
